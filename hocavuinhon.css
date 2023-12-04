@@ -1,0 +1,144 @@
+.sound {
+    position: relative;
+    float: inline-end;
+}
+#shark {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: Shark;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark {
+    0% {left: 100px; top:400px}
+    20% {left: 300px; top: 400px;}
+    40% {left: 500px; top: 300px;}
+    50% {left: 600px; top: 50px;}
+    60% {left: 600px; top: 100px;}
+    80% {left: 500px; top: 200px;}
+    100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+#diver1 {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: diver1;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver1 {
+    0% {left: 100px; top:100px}
+    20% {left: 600px; top: 100px;}
+    40% {left: 800px; top: 150px;}
+    50% {left: 900px; top: 200px;}
+    60% {left: 1000px; top: 200px;}
+    80% {left: 100%; top: 200px;}
+    100% {left: 100px; top: 100px; transform: scaleX(-0.5);}
+}
+#diver2 {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: diver2;
+    animation-duration: 22s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver2 {
+    0% {left: 200px; top:200px;}
+    20% {left: 500px; top: 200px;}
+    40% {left: 600px; top: 200px;}
+    50% {left: 800px; top: 250px;}
+    60% {left: 950px; top: 250px;}
+    80% {left: 100%; top: 250px;}
+    100% {left: 200px; top: 200px; transform: scaleX(-0.5);}
+}
+#diver3 {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: diver3;
+    animation-duration: 23s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver3 {
+    0% {left: 200px; top:400px;}
+    20% {left: 500px; top: 200px;}
+    40% {left: 700px; top: 200px;}
+    50% {left: 800px; top: 250px;}
+    60% {left: 970px; top: 300px;}
+    80% {left: 100%; top: 400px;}
+    100% {left: 200px; top: 400px; transform: scaleX(-0.5);}
+}
+#faintSchool {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: faintSchool;
+    animation-duration: 60s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes faintSchool {
+    0% {left: 500px; top:500px}
+    20% {left: 500px; top: 250px;}
+    40% {left: 500px; top: 200x;}
+    50% {left: 500px; top: 150px;}
+    60% {left: 500px; top: 100px;}
+    80% {left: 500px; top: 50px;}
+    100% {left: 500px; top: 500px; transform: scaleX();}
+}
+#goldFishSchool {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: goldFishSchool;
+    animation-duration: 22s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes goldFishSchool {
+    0% {left: 350px; top:300px}
+    20% {left: 200px; top: 70px;}
+    40% {left: 300px; top: 100px;}
+    50% {left: 500px; top: 150px;}
+    60% {left: 700px; top: 150px;}
+    80% {left: 100%; top: 200px;}
+    100% {left: 350px; top: 300px;transform: scaleX(-0.5);}
+}
+#turtle {
+    left: 100px;
+    top: 400px;
+    position: absolute;
+    animation-name: turtle;
+    animation-duration: 45s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes turtle {
+    0% {left: 400px; top:200px}
+    20% {left: 500x; top: 50px;}
+    40% {left: 600px; top:100px;}
+    50% {left: 700x; top: 200x;}
+    60% {left: 800px; top: 300px;}
+    80% {left: 100%; top: 400px;}
+    100% {left: 400px; top: 200px;transform: scaleX(-0.5);}
+}
+body {
+    background: url(https://i.pinimg.com/originals/cd/1d/10/cd1d10b6d98ddb8fce79fbba10dd5e30.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 1080px;
+}
